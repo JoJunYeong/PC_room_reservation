@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">O 나의 PC방</string>
+    <string name="title_section1">O 나의 PC방</string>
+    <string name="title_section2">검색</string>
+    <string name="title_section3">설정</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">개발사</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_fragment_second">FragmentSecond</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_third">Third</string>
+
+    <string-array name="number">
+        <item>1번</item>
+        <item>2번</item>
+        <item>3번</item>
+        <item>4번</item>
+        <item>5번</item>
+    </string-array>
+
+    <string name="title_activity_spiner_1">Spiner_1</string>
+    <string name="title_activity_incheon">Incheon</string>
+    <string name="title_activity_jakjeon_dong">Jakjeon_dong</string>
+    <string name="title_activity_gaeyang_gu">Gaeyang_gu</string>
+    <string name="title_activity_yeahyak">Yeahyak</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_disable_account">DisableAccount</string>
+    <string name="title_activity_program_version">ProgramVersion</string>
+    <string name="title_activity_pcreservation">PC방 1</string>
+    <string name="menu_like">즐겨찾기</string>
+    <string name="menu_reservation">예약하기</string>
+    <string name="menu_refresh">새로고침</string>
+    <string name="menu_pc_name">PC방이름</string>
+    <string name="menu_back">뒤로가기</string>
+    <string name="title_activity_reservation_popup">ReservationPopup</string>
+    <string name="title_activity_reservation_popup3">ReservationPopup3</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_web_view_1">WebView_1</string>
+    <string name="title_activity_do_not">DoNot</string>
+    <string name="title_activity_done">Done</string>
+    <string name="title_activity_menual">Menual</string>
+    <string name="title_activity_reservation_check">Reservation_check</string>
+    <string name="title_activity_intro">Intro</string>
+    <string name="title_activity_company">Company</string>
+    <string name="title_activity_reservation_cancle">Reservation_cancle</string>
+    <string name="title_activity_login2">Login2</string>
+    <string name="title_activity_consent">Consent</string>
+
+</resources>

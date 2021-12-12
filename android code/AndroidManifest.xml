@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zero"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_mark3"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" android:logo="@drawable/ic_launcher4">
+        <activity
+            android:name=".ZERO"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Second"
+            android:label="@string/title_activity_second"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".FragmentSecond"
+            android:label="@string/title_activity_fragment_second"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".First"
+            android:label="@string/title_activity_first"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Third"
+            android:label="@string/title_activity_third"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Spiner_1"
+            android:label="@string/title_activity_spiner_1"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Incheon"
+            android:label="@string/title_activity_incheon"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Jakjeon_dong"
+            android:label="@string/title_activity_jakjeon_dong"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Gaeyang_gu"
+            android:label="@string/title_activity_gaeyang_gu"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Yeahyak"
+            android:label="@string/title_activity_yeahyak"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".CreateAccount"
+            android:label="@string/title_activity_create_account"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                    <category android:name="android.intent.category.LAUNCHER" >
+                    </category>
+                </action>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisableAccount"
+            android:label="@string/title_activity_disable_account"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".ProgramVersion"
+            android:label="@string/title_activity_program_version"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".PCreservation"
+            android:label="@string/title_activity_pcreservation"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".ReservationPopup3"
+            android:label="@string/title_activity_reservation_popup3"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".WebView_1"
+            android:label="@string/title_activity_web_view_1" >
+        </activity>
+        <activity
+            android:name=".DoNot"
+            android:label="@string/title_activity_do_not" >
+        </activity>
+        <activity
+            android:name=".Done"
+            android:label="@string/title_activity_done" >
+        </activity>
+
+        <service android:name=".BackgroundSearch" >
+        </service>
+        <service android:name=".CancleSearch" >
+        </service>
+
+        <activity
+            android:name=".Menual"
+            android:label="@string/title_activity_menual" >
+        </activity>
+        <activity
+            android:name=".Reservation_check"
+            android:label="@string/title_activity_reservation_check" >
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:label="@string/title_activity_intro" >
+        </activity>
+        <activity
+            android:name=".Company"
+            android:label="@string/title_activity_company" >
+        </activity>
+        <activity
+            android:name=".Reservation_cancle"
+            android:label="@string/title_activity_reservation_cancle" >
+        </activity>
+        <activity
+            android:name=".Login2"
+            android:label="@string/title_activity_login2" >
+        </activity>
+        <activity
+            android:name=".Consent"
+            android:label="@string/title_activity_consent" >
+        </activity>
+    </application>
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>

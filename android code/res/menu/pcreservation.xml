@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.zero.PCreservation" >
+
+    
+   
+    
+    
+   
+
+    
+    <item
+        android:id="@+id/menu_like"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_menu_like"        
+        android:title="@string/menu_like"/>
+    
+    <item
+        android:id="@+id/menu_reservation"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_reservation"
+        />
+    
+    
+     <item
+        android:id="@+id/menu_refresh"
+        android:title="@string/menu_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"        
+        />
+    
+    
+    
+    
+</menu>
